@@ -24,11 +24,7 @@ body {
   text-align: center;
   color: #ffffff;
 }
-/*Sections*/
-.our-team {
-  background-color: #f4f4fd;
-}
-.web-h {
+.web-header {
   font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -47,14 +43,15 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 .header-item {
-    font-family: Roboto, sans-serif;
-font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .tel {
   font-family: Roboto, sans-serif;
@@ -74,7 +71,10 @@ font-style: normal;
   letter-spacing: 0.02em;
   color: #434455;
 }
-
+/*Sections*/
+.our-team {
+  background-color: #f4f4fd;
+}
 .feature-title {
   font-family: Roboto, sans-serif;
   font-size: 20px;
@@ -148,7 +148,7 @@ font-style: normal;
 .footer {
   background-color: #2e2f42;
 }
-.web-f {
+.web-footer {
   font-family: Raleway, sans-serif;
   font-style: normal;
   font-weight: 800;
@@ -161,5 +161,11 @@ font-style: normal;
   color: #f4f4fd;
 }
 .footer-text {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #e7e9fc;
 }
