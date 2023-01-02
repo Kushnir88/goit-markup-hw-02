@@ -10,6 +10,10 @@ body {
 .link {
   text-decoration: none;
 }
+.link:hover,
+.link:focus{
+  color:#404BBF;
+}
 .accent {
   color: #4d5ae5;
 }
@@ -66,12 +70,7 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.header-item:hover {
-  color: aqua;
-}
-.header-item:focus {
-  color: aqua;
-}
+
 .tel {
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -89,6 +88,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.tel:hover,
+.tel:focus{
+  color: #4d5ae5;
+}
+.mail:hover,
+.mail:focus{
+  color: #4d5ae5;
 }
 /*Sections*/
 .our-team {
