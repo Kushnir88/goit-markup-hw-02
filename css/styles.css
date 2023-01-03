@@ -11,8 +11,8 @@ body {
   text-decoration: none;
 }
 .link:hover,
-.link:focus{
-  color:#404BBF;
+.link:focus {
+  color: #404bbf;
 }
 .accent {
   color: #4d5ae5;
@@ -90,11 +90,11 @@ body {
   color: #434455;
 }
 .tel:hover,
-.tel:focus{
+.tel:focus {
   color: #4d5ae5;
 }
 .mail:hover,
-.mail:focus{
+.mail:focus {
   color: #4d5ae5;
 }
 /*Sections*/
@@ -120,12 +120,15 @@ body {
   color: #434455;
 }
 .section-text {
-  font-family: Roboto, sans-serif;
-  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
+  font-size: 36px;
+  line-height: 1, 11;
   text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .h-text {
@@ -158,6 +161,14 @@ body {
   text-align: center;
   color: #ffffff;
   background-color: #4d5ae5;
+}
+.button-index:hover {
+  color: #e7e9fc;
+  background-color: #4d5ae5;
+}
+.button-index:focus {
+  color: #e7e9fc;
+  background-color: #404bbf;
 }
 .button-portfolio {
   font-family: Roboto, sans-serif;
