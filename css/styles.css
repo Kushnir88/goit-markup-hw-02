@@ -30,6 +30,23 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.suptitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.subtitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 /*Header*/
 .hero {
   background-color: #2e2f42;
@@ -70,9 +87,12 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.header-item:hover,
+.header-item:focus {
+  text-decoration: underline;
+}
 
 .tel {
-  font-family: Roboto, sans-serif;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -81,7 +101,6 @@ body {
   color: #434455;
 }
 .mail {
-  font-family: Roboto, sans-serif;
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -101,27 +120,8 @@ body {
 .our-team {
   background-color: #f4f4fd;
 }
-.feature-title {
-  font-family: Roboto, sans-serif;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: left;
-  color: #2e2f42;
-}
-.feature-text {
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: left;
-  color: #434455;
-}
+
 .section-text {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1, 11;
@@ -131,47 +131,26 @@ body {
   color: #2e2f42;
 }
 
-.h-text {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: left;
-  color: #2e2f42;
-}
-.p-text {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: left;
-  color: #434455;
-}
 /*Buttons*/
 .button-index {
-  font-family: Roboto, sans-serif;
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
+  display: flex;
   letter-spacing: 0.04em;
   text-align: center;
   color: #ffffff;
   background-color: #4d5ae5;
+  cursor: pointer;
 }
-.button-index:hover {
-  color: #e7e9fc;
-  background-color: #4d5ae5;
-}
+.button-index:hover,
 .button-index:focus {
   color: #e7e9fc;
   background-color: #404bbf;
 }
 .button-portfolio {
-  font-family: Roboto, sans-serif;
+  font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -179,6 +158,7 @@ body {
   text-align: center;
   color: #4d5ae5;
   background-color: #e7e9fc;
+  cursor: pointer;
 }
 .button-portfolio:hover {
   color: #e7e9fc;
