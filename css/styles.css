@@ -1,8 +1,15 @@
 .title {
   font-family: Raleway, sans-serif;
 }
+:root {
+  --body-text-color: #2e2f42;
+  --background-color: #2e2f42;
+  --link-color: #404bbf;
+  --subtitle-color: #434455;
+}
 body {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: var(--body-text-color);
 }
 .list {
   list-style: none;
@@ -12,7 +19,7 @@ body {
 }
 .link:hover,
 .link:focus {
-  color: #404bbf;
+  color: var(--link-color);
 }
 .accent {
   color: #4d5ae5;
@@ -36,7 +43,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+
 }
 
 .subtitle {
@@ -44,13 +51,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--subtitle-color);
 }
 
-/*Header*/
+/*============================Header============================*/
 .hero {
-  background-color: #2e2f42;
-  font-family: Roboto, sans-serif;
+  background-color: var(--background-color);
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -59,7 +65,7 @@ body {
   color: #ffffff;
 }
 .web-header {
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -70,22 +76,15 @@ body {
   text-transform: uppercase;
   color: #2e2f42;
 }
-.nav {
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
+
 
 .header-item {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+
 }
 .header-item:hover,
 .header-item:focus {
@@ -95,7 +94,6 @@ body {
 .tel {
   font-style: normal;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
@@ -103,20 +101,19 @@ body {
 .mail {
   font-style: normal;
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 .tel:hover,
 .tel:focus {
-  color: #4d5ae5;
+  color: var(--link-color);
 }
 .mail:hover,
 .mail:focus {
-  color: #4d5ae5;
+  color: var(--link-color);
 }
-/*Sections*/
+/*============================Sections============================*/
 .our-team {
   background-color: #f4f4fd;
 }
@@ -128,10 +125,10 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+
 }
 
-/*Buttons*/
+/*============================Buttons============================*/
 .button-index {
   font-family: inherit;
   font-size: 16px;
@@ -168,9 +165,9 @@ body {
   color: #e7e9fc;
   background-color: #404bbf;
 }
-/*Footer*/
+/*============================Footer============================*/
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--background-color);
 }
 .web-footer {
   font-family: Raleway, sans-serif;
@@ -185,9 +182,7 @@ body {
   color: #f4f4fd;
 }
 .footer-text {
-  font-family: Roboto, sans-serif;
-  font-style: normal;
-  font-weight: 400;
+
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
