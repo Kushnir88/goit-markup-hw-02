@@ -43,7 +43,6 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
 }
 
 .subtitle {
@@ -57,11 +56,13 @@ body {
 /*============================Header============================*/
 .hero {
   background-color: var(--background-color);
-  font-size: 56px;
+}
+.hero-text {
   font-weight: 700;
+  font-size: 56px;
   line-height: 1.07;
-  letter-spacing: 0.02em;
   text-align: center;
+  letter-spacing: 0.02em;
   color: #ffffff;
 }
 .web-header {
@@ -77,18 +78,16 @@ body {
   color: #2e2f42;
 }
 
-
 .header-item {
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-
+  color: var(--body-text-color);
 }
 .header-item:hover,
 .header-item:focus {
-  text-decoration: underline;
+  color: var(--link-color);
 }
 
 .tel {
@@ -125,7 +124,6 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-
 }
 
 /*============================Buttons============================*/
@@ -182,7 +180,7 @@ body {
   color: #f4f4fd;
 }
 .footer-text {
-
+  
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
